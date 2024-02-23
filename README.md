@@ -1,7 +1,6 @@
 ## data
 
 - add db.json with necessary data
--
 
 ## start json-server
 

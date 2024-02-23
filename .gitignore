@@ -35,7 +35,7 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 # json-server db
-data/*.json
-!data/db-example.json
+src/data/*.json
+!src/data/db-example.json
 # Environment variables
 .env

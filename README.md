@@ -5,5 +5,5 @@
 ## start json-server
 
 ```sh
-npm run start:db
+npm run start
 ```

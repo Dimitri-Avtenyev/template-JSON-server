@@ -1,0 +1,18 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "start:db": "npx json-server --watch data/db.json --port 1337",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/json-server": "^0.14.7",
+    "@types/node": "^20.11.20",
+    "json-server": "^1.0.0-alpha.23"
+  }
+}

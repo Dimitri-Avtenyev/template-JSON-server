@@ -20,7 +20,7 @@ server.use((req, res, next) => {
         const spentDate = new Date(timeEntry.spent_date);
         const fromIsoDate = new Date(from.toString());
 
-        return spentDate <= fromIsoDate;
+        return spentDate >= fromIsoDate;
       });
     }
     if (userTimeEntries) {
